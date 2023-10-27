@@ -1,5 +1,6 @@
 <div>
-    <form>
+    <div class="component">
+      <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" wire:model='name'>
@@ -15,4 +16,5 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+    </div>
 </div>

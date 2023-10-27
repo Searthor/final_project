@@ -15,9 +15,6 @@ class ShowPosts extends Component
         if($this->name=="searthor"){
             dd($this->name);
         }
-
-
-
-        return view('livewire.show-posts')->layout('layouts.style');
+        return view('livewire.show-posts')->layout('layouts.backend.base');
     }
 }
